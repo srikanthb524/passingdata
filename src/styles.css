@@ -1,1 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
+/* Add application styles & imports to this file! */
+html, body {
+  font-family: Arial;
+  padding: 0;
+  margin: 10px;
+
+}
+
+label {
+  display: block;
+  width: 100%;
+}
+
+input {
+  width: 80%;
+  padding: 5px;
+}
+
+button {
+  padding: 5px;
+}
+
+.container {
+  padding: 10px;
+  border-radius: 0.2rem;
+}
+
+.kidsroom {
+  background-color: #afcad4;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 0.5rem;
+}
+
+.parentroom {
+  background-color: #d6c7b1;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 0.5rem;
+}
+
+.receivedMessages {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.sendMessages {
+  text-align: center;
+  margin: 10px;
+}
+
+.child1 {
+  padding: 0 10px;
+  margin: 0px;
+  background-color: #afcad4;
+  border-radius: 0.5rem;
+}
+
+.msgFromParent {
+  background-color: gainsboro;
+  padding: 0 10px;
+  width: 40%;
+  border-radius: 0.5rem;
+}
